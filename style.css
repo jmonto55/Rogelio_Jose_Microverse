@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background-image: url(./survey-form-background\ \(1\).jpeg);
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(105, 105, 241, 0.5);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.survey {
+    background-color: rgba(9, 10, 67, 0.7);
+    min-width: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-group {
+    display: grid;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.titles{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+
+}
+.input-box {
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.comment-box{
+    margin-top: 5px;
+    height: 80px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+button {
+    height: 30px;
+    background-color: rgb(6, 167, 27);
+    border: none;
+    border-radius: px;
+    color: white;
+    justify-self: center;
+    min-width: 320px;
+}
+
+
+
+
